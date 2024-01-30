@@ -1,0 +1,27 @@
+[2024-01-10T00:14:05.155577+00:00] main.ERROR: Parameter validation failed
+#0 /home/sg/Sites/m247b/vendor/symfony/console/Command/Command.php(264): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /home/sg/Sites/m247b/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run()
+#2 /home/sg/Sites/m247b/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#3 /home/sg/Sites/m247b/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#4 /home/sg/Sites/m247b/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#5 /home/sg/Sites/m247b/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-01-10T10:53:12.847050+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-10T20:18:37.003601+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-10T20:18:37.004023+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-10T20:32:00+00:00] test.WARNING: test [] []
+[2024-01-10T20:34:28.381089+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-10T20:34:28.717610+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-10T21:23:34.528486+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-10T21:23:34.529220+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-10T21:24:20.510599+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-10T21:24:20.511318+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-12T14:30:45.429794+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-12T14:30:45.652424+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-12T14:30:53.809104+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-30T14:35:16.208151+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-01-30T14:35:16.208882+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-01-30T14:35:16.209198+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-01-30T14:35:16.209335+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-01-30T14:35:16.209417+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-01-30T14:35:16.209496+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []

@@ -1,0 +1,1 @@
+/home/sg/Sites/m247b/vendor/magento/module-theme/view/frontend/web/js/cookie-status.js

@@ -1,0 +1,16 @@
+Configure,Configure
+Close,Close
+Sandbox,Sandbox
+Production,Production
+"Recommended Solutions:","Recommended Solutions:"
+"Payment Services","Payment Services"
+"Payment Services is your turnkey integrated solution for providing secure payment processing, robust reporting, and optimized online order payments.","Payment Services is your turnkey integrated solution for providing secure payment processing, robust reporting, and optimized online order payments."
+"General Configuration","General Configuration"
+Enable,Enable
+Method,Method
+"Sandbox Merchant ID","Sandbox Merchant ID"
+"Production Merchant ID","Production Merchant ID"
+"Secure transaction","Secure transaction"
+"Pay with PayPal","Pay with PayPal"
+"Pay with credit card","Pay with credit card"
+"Pay with Apple Pay","Pay with Apple Pay"

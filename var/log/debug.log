@@ -1,0 +1,462 @@
+[2024-01-10T00:14:05.155577+00:00] main.ERROR: Parameter validation failed
+#0 /home/sg/Sites/m247b/vendor/symfony/console/Command/Command.php(264): Magento\Setup\Console\Command\InstallCommand->initialize()
+#1 /home/sg/Sites/m247b/vendor/symfony/console/Application.php(1040): Symfony\Component\Console\Command\Command->run()
+#2 /home/sg/Sites/m247b/vendor/symfony/console/Application.php(301): Symfony\Component\Console\Application->doRunCommand()
+#3 /home/sg/Sites/m247b/vendor/magento/framework/Console/Cli.php(116): Symfony\Component\Console\Application->doRun()
+#4 /home/sg/Sites/m247b/vendor/symfony/console/Application.php(171): Magento\Framework\Console\Cli->doRun()
+#5 /home/sg/Sites/m247b/bin/magento(23): Symfony\Component\Console\Application->run()
+#6 {main} [] []
+[2024-01-10T00:17:21.037042+00:00] main.DEBUG: Source class "\Magento\ServiceProxy\Model" for "Magento\ServiceProxy\Model\Logger" generation does not exist. {"exception":"[object] (RuntimeException(code: 0): Source class \"\\Magento\\ServiceProxy\\Model\" for \"Magento\\ServiceProxy\\Model\\Logger\" generation does not exist. at /home/sg/Sites/m247b/vendor/magento/framework/Code/Generator.php:223)"} []
+[2024-01-10T00:17:21.037393+00:00] main.DEBUG: Source class "\Magento\ServiceProxy\Model" for "Magento\ServiceProxy\Model\Logger" generation does not exist. {"exception":"[object] (RuntimeException(code: 0): Source class \"\\Magento\\ServiceProxy\\Model\" for \"Magento\\ServiceProxy\\Model\\Logger\" generation does not exist. at /home/sg/Sites/m247b/vendor/magento/framework/Code/Generator.php:223)"} []
+[2024-01-10T00:17:24.417395+00:00] main.INFO: Setting mode Update On Schedule for indexer Sales Order Feed [] []
+[2024-01-10T00:17:24.482758+00:00] main.INFO: Setting mode Update On Schedule for indexer Sales Order Statuses Feed [] []
+[2024-01-10T00:17:24.521270+00:00] main.INFO: Setting mode Update On Schedule for indexer Stores Feed [] []
+[2024-01-10T00:17:25.176046+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.179318+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.179464+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.179596+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.179682+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.179763+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.179842+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.179921+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.180007+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.180085+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.180162+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.180241+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.180438+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.180543+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:25.180625+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:26.661931+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BACKEND_MAINMENU"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:26.662025+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["user_assigned_role"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.671448+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.673982+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.713594+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.735198+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.736228+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.736309+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.736370+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.743900+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.744210+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.744275+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.744329+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.744809+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.745132+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.750714+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.750935+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.751002+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.751077+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.752852+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.753070+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.753137+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.753197+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.754978+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.755208+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.755281+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.755340+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.757123+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.757334+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.757396+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.757450+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.759234+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.759485+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.759552+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.759608+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.761379+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.761601+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.761665+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.761718+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.763492+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.763714+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.763780+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.763834+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.765626+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.765849+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.765913+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.765970+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.767783+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.768006+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.768072+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.768127+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.771919+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.772156+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.772222+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.772280+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.774050+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.774262+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.774331+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.774386+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.776195+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.776419+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.776485+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.776538+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.778273+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.778524+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.778591+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.778647+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.780470+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.780685+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.780750+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.780811+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.782563+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.782774+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.782839+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.782897+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.784693+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.784909+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.784974+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.785033+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.787344+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.787686+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.787757+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.787818+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.790908+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.791336+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.791457+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.791563+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.797974+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.798288+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.798360+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.798420+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.800805+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.801111+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.801185+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.801242+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.803203+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.803497+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.803570+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.803632+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.807118+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.807353+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.807418+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.807475+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.816676+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.817006+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.817079+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.817139+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.819185+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.819493+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.819566+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.819625+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.821681+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.821975+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.822047+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.822107+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.824161+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.824465+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.824547+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.824609+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.829274+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.829567+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.829641+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.829701+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.831677+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.832033+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.832116+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.832181+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.834511+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.834862+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.834940+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.835004+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.837249+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.837584+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.837665+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.837727+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.840234+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.840567+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.840641+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.840701+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.842915+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.843247+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.843323+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.843383+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.867577+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.867685+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p_1","GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:26.874852+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.874943+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p_2","GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:26.877134+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.877221+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p_3","GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:26.879954+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.880035+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p_4","GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:26.887003+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.887096+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p_4","GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:26.902341+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.904150+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:26.931920+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.071244+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cat_c_1","cat_c_p_1","cat_c"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.073597+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cat_c_1","cat_c","cat_c_p_1"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.080773+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":{"0":"cat_c_2","1":"cat_c_p_2","2":"cat_c_p_1","4":"cat_c"},"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.081305+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cat_c_2","cat_c_p_1","cat_c_p_2","cat_c"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.443537+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cat_c_1","cat_c_2"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.507541+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.507916+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.508044+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.508278+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-01-10T00:17:27.515753+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-01-10T00:17:27.526121+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.526829+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.527048+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.527263+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-01-10T00:17:27.534295+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"request_declaration"}} []
+[2024-01-10T00:17:27.575610+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.576922+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.577985+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.579036+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.584304+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.597851+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.605486+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.608095+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.608990+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV","EAV_ATTRIBUTE"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.708969+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p"],"mode":"matchingAnyTag"}} []
+[2024-01-10T00:17:27.709085+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["cms_p_2","GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.771941+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.865354+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_design_config_grid_flat_1"}} []
+[2024-01-10T00:17:27.865424+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_design_config_grid_flat_2"}} []
+[2024-01-10T00:17:27.865457+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_design_config_grid_flat_3"}} []
+[2024-01-10T00:17:27.865487+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_design_config_grid_flat_4"}} []
+[2024-01-10T00:17:27.865542+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_design_config_grid_flat_5"}} []
+[2024-01-10T00:17:27.900776+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_1"}} []
+[2024-01-10T00:17:27.900849+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_2"}} []
+[2024-01-10T00:17:27.900881+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_3"}} []
+[2024-01-10T00:17:27.900908+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_4"}} []
+[2024-01-10T00:17:27.900933+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_customer_grid_flat_5"}} []
+[2024-01-10T00:17:27.913361+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.913569+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.913707+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.985193+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.987869+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.988032+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.988131+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.988215+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.988715+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.988825+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.988973+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.989067+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.989147+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.989226+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.989311+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.989416+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.989499+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2024-01-10T00:17:27.989577+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2024-01-10T00:19:29.091505+00:00] main.DEBUG: Source class "\Magento\ServiceProxy\Model" for "Magento\ServiceProxy\Model\Logger" generation does not exist. {"exception":"[object] (RuntimeException(code: 0): Source class \"\\Magento\\ServiceProxy\\Model\" for \"Magento\\ServiceProxy\\Model\\Logger\" generation does not exist. at /home/sg/Sites/m247b/vendor/magento/framework/Code/Generator.php:223)"} []
+[2024-01-10T00:20:18.114647+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.118056+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.118208+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.118308+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.118399+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.118492+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.118581+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.118666+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.118750+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.118855+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.118948+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.119033+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.119924+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.120073+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:18.120175+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:20.112419+00:00] main.DEBUG: Source class "\Magento\ServiceProxy\Model" for "Magento\ServiceProxy\Model\Logger" generation does not exist. {"exception":"[object] (RuntimeException(code: 0): Source class \"\\Magento\\ServiceProxy\\Model\" for \"Magento\\ServiceProxy\\Model\\Logger\" generation does not exist. at /home/sg/Sites/m247b/vendor/magento/framework/Code/Generator.php:223)"} []
+[2024-01-10T00:20:21.776093+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.039579+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_sales_order_status_data_exporter_cl_1"}} []
+[2024-01-10T00:20:23.039765+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_sales_order_status_data_exporter_cl_2"}} []
+[2024-01-10T00:20:23.039846+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_sales_order_status_data_exporter_cl_3"}} []
+[2024-01-10T00:20:23.039913+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_sales_order_status_data_exporter_cl_4"}} []
+[2024-01-10T00:20:23.040314+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"identifier":"DB_PDO_MYSQL_DDL_sales_order_status_data_exporter_cl_5"}} []
+[2024-01-10T00:20:23.222922+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.226148+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.226285+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.226430+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COLLECTION_DATA"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.229335+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["REFLECTION"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.229741+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["DB_DDL"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.229878+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["COMPILED_CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.229966+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["EAV"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.230049+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["CUSTOMER_NOTIFICATION"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.230129+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.230234+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["INTEGRATION_API_CONFIG"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.230313+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["GRAPHQL_QUERY_RESOLVER_RESULT"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.230456+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.230641+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.230737+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.285969+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["LAYOUT_GENERAL_CACHE_TAG"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.286154+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["BLOCK_HTML"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:23.286299+00:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["FPC"],"mode":"matchingTag"}} []
+[2024-01-10T00:20:44.350443+00:00] main.DEBUG: Source class "\Magento\ServiceProxy\Model" for "Magento\ServiceProxy\Model\Logger" generation does not exist. {"exception":"[object] (RuntimeException(code: 0): Source class \"\\Magento\\ServiceProxy\\Model\" for \"Magento\\ServiceProxy\\Model\\Logger\" generation does not exist. at /home/sg/Sites/m247b/vendor/magento/framework/Code/Generator.php:223)"} []
+[2024-01-10T10:53:12.847050+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-10T10:53:12.852108+00:00] main.CRITICAL: PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php:128
+Stack trace:
+#0 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php(128): PDO->__construct()
+#1 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Mysql.php(111): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#2 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(480): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#3 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Abstract.php(460): Magento\Framework\DB\Adapter\Pdo\Mysql->_connect()
+#4 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php(242): Zend_Db_Adapter_Abstract->query()
+#5 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(616): Zend_Db_Adapter_Pdo_Abstract->query()
+#6 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(686): Magento\Framework\DB\Adapter\Pdo\Mysql->_query()
+#7 /home/sg/Sites/m247b/generated/code/Magento/Framework/DB/Adapter/Pdo/Mysql/Interceptor.php(95): Magento\Framework\DB\Adapter\Pdo\Mysql->query()
+#8 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Abstract.php(737): Magento\Framework\DB\Adapter\Pdo\Mysql\Interceptor->query()
+#9 /home/sg/Sites/m247b/generated/code/Magento/Framework/DB/Adapter/Pdo/Mysql/Interceptor.php(1094): Zend_Db_Adapter_Abstract->fetchAll()
+#10 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(100): Magento\Framework\DB\Adapter\Pdo\Mysql\Interceptor->fetchAll()
+#11 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(61): Magento\Store\App\Config\Source\RuntimeConfigSource->getEntities()
+#12 /home/sg/Sites/m247b/vendor/magento/framework/App/Config/ConfigSourceAggregated.php(42): Magento\Store\App\Config\Source\RuntimeConfigSource->get()
+#13 /home/sg/Sites/m247b/generated/code/Magento/Framework/App/Config/ConfigSourceAggregated/Proxy.php(105): Magento\Framework\App\Config\ConfigSourceAggregated->get()
+#14 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Type/Scopes.php(63): Magento\Framework\App\Config\ConfigSourceAggregated\Proxy->get()
+#15 /home/sg/Sites/m247b/vendor/magento/framework/App/Config.php(131): Magento\Store\App\Config\Type\Scopes->get()
+#16 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreRepository.php(106): Magento\Framework\App\Config->get()
+#17 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreRepository.php(127): Magento\Store\Model\StoreRepository->getById()
+#18 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreResolver.php(181): Magento\Store\Model\StoreRepository->getActiveStoreById()
+#19 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreResolver.php(126): Magento\Store\Model\StoreResolver->getDefaultStoreById()
+#20 /home/sg/Sites/m247b/generated/code/Magento/Store/Model/StoreResolver/Proxy.php(105): Magento\Store\Model\StoreResolver->getCurrentStoreId()
+#21 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreManager.php(159): Magento\Store\Model\StoreResolver\Proxy->getCurrentStoreId()
+#22 /home/sg/Sites/m247b/generated/code/Magento/Store/Model/StoreManagerInterface/Proxy.php(129): Magento\Store\Model\StoreManager->getStore()
+#23 /home/sg/Sites/m247b/vendor/magento/module-store/Model/Resolver/Store.php(30): Magento\Store\Model\StoreManagerInterface\Proxy->getStore()
+#24 /home/sg/Sites/m247b/vendor/magento/framework/App/Config/ScopeCodeResolver.php(49): Magento\Store\Model\Resolver\Store->getScope()
+#25 /home/sg/Sites/m247b/vendor/magento/framework/App/Config.php(68): Magento\Framework\App\Config\ScopeCodeResolver->resolve()
+#26 /home/sg/Sites/m247b/vendor/magento/module-backend/App/Area/FrontNameResolver.php(124): Magento\Framework\App\Config->getValue()
+#27 /home/sg/Sites/m247b/vendor/magento/module-backend/App/Area/FrontNameResolver.php(107): Magento\Backend\App\Area\FrontNameResolver->isHostBackend()
+#28 /home/sg/Sites/m247b/vendor/magento/framework/App/AreaList.php(75): Magento\Backend\App\Area\FrontNameResolver->getFrontName()
+#29 /home/sg/Sites/m247b/vendor/magento/framework/App/Http.php(111): Magento\Framework\App\AreaList->getCodeByFrontName()
+#30 /home/sg/Sites/m247b/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#31 /home/sg/Sites/m247b/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#32 /home/sg/Sites/m247b/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#33 /home/sg/.config/composer/vendor/cpriego/valet-linux/server.php(239): require('...')
+#34 {main}
+
+Next Zend_Db_Adapter_Exception: SQLSTATE[HY000] [2002] Connection refused in /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php:148
+Stack trace:
+#0 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Mysql.php(111): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#1 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(480): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#2 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Abstract.php(460): Magento\Framework\DB\Adapter\Pdo\Mysql->_connect()
+#3 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php(242): Zend_Db_Adapter_Abstract->query()
+#4 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(616): Zend_Db_Adapter_Pdo_Abstract->query()
+#5 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(686): Magento\Framework\DB\Adapter\Pdo\Mysql->_query()
+#6 /home/sg/Sites/m247b/generated/code/Magento/Framework/DB/Adapter/Pdo/Mysql/Interceptor.php(95): Magento\Framework\DB\Adapter\Pdo\Mysql->query()
+#7 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Abstract.php(737): Magento\Framework\DB\Adapter\Pdo\Mysql\Interceptor->query()
+#8 /home/sg/Sites/m247b/generated/code/Magento/Framework/DB/Adapter/Pdo/Mysql/Interceptor.php(1094): Zend_Db_Adapter_Abstract->fetchAll()
+#9 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(100): Magento\Framework\DB\Adapter\Pdo\Mysql\Interceptor->fetchAll()
+#10 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(61): Magento\Store\App\Config\Source\RuntimeConfigSource->getEntities()
+#11 /home/sg/Sites/m247b/vendor/magento/framework/App/Config/ConfigSourceAggregated.php(42): Magento\Store\App\Config\Source\RuntimeConfigSource->get()
+#12 /home/sg/Sites/m247b/generated/code/Magento/Framework/App/Config/ConfigSourceAggregated/Proxy.php(105): Magento\Framework\App\Config\ConfigSourceAggregated->get()
+#13 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Type/Scopes.php(63): Magento\Framework\App\Config\ConfigSourceAggregated\Proxy->get()
+#14 /home/sg/Sites/m247b/vendor/magento/framework/App/Config.php(131): Magento\Store\App\Config\Type\Scopes->get()
+#15 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreRepository.php(106): Magento\Framework\App\Config->get()
+#16 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreRepository.php(127): Magento\Store\Model\StoreRepository->getById()
+#17 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreResolver.php(181): Magento\Store\Model\StoreRepository->getActiveStoreById()
+#18 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreResolver.php(126): Magento\Store\Model\StoreResolver->getDefaultStoreById()
+#19 /home/sg/Sites/m247b/generated/code/Magento/Store/Model/StoreResolver/Proxy.php(105): Magento\Store\Model\StoreResolver->getCurrentStoreId()
+#20 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreManager.php(159): Magento\Store\Model\StoreResolver\Proxy->getCurrentStoreId()
+#21 /home/sg/Sites/m247b/generated/code/Magento/Store/Model/StoreManagerInterface/Proxy.php(129): Magento\Store\Model\StoreManager->getStore()
+#22 /home/sg/Sites/m247b/vendor/magento/module-store/Model/Resolver/Store.php(30): Magento\Store\Model\StoreManagerInterface\Proxy->getStore()
+#23 /home/sg/Sites/m247b/vendor/magento/framework/App/Config/ScopeCodeResolver.php(49): Magento\Store\Model\Resolver\Store->getScope()
+#24 /home/sg/Sites/m247b/vendor/magento/framework/App/Config.php(68): Magento\Framework\App\Config\ScopeCodeResolver->resolve()
+#25 /home/sg/Sites/m247b/vendor/magento/module-backend/App/Area/FrontNameResolver.php(124): Magento\Framework\App\Config->getValue()
+#26 /home/sg/Sites/m247b/vendor/magento/module-backend/App/Area/FrontNameResolver.php(107): Magento\Backend\App\Area\FrontNameResolver->isHostBackend()
+#27 /home/sg/Sites/m247b/vendor/magento/framework/App/AreaList.php(75): Magento\Backend\App\Area\FrontNameResolver->getFrontName()
+#28 /home/sg/Sites/m247b/vendor/magento/framework/App/Http.php(111): Magento\Framework\App\AreaList->getCodeByFrontName()
+#29 /home/sg/Sites/m247b/generated/code/Magento/Framework/App/Http/Interceptor.php(23): Magento\Framework\App\Http->launch()
+#30 /home/sg/Sites/m247b/vendor/magento/framework/App/Bootstrap.php(264): Magento\Framework\App\Http\Interceptor->launch()
+#31 /home/sg/Sites/m247b/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#32 /home/sg/.config/composer/vendor/cpriego/valet-linux/server.php(239): require('...')
+#33 {main} {"report_id":"e33e1f38d75c01dfdd6345d3d306f553d17d974e6ceab852f59bfa5911a2823c","exception":"[object] (Zend_Db_Adapter_Exception(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php:148)
+[previous exception] [object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php:128)"} []
+[2024-01-10T10:53:12.891557+00:00] main.CRITICAL: PDOException: SQLSTATE[HY000] [2002] Connection refused in /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php:128
+Stack trace:
+#0 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php(128): PDO->__construct()
+#1 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Mysql.php(111): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#2 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(480): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#3 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Abstract.php(460): Magento\Framework\DB\Adapter\Pdo\Mysql->_connect()
+#4 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php(242): Zend_Db_Adapter_Abstract->query()
+#5 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(616): Zend_Db_Adapter_Pdo_Abstract->query()
+#6 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(686): Magento\Framework\DB\Adapter\Pdo\Mysql->_query()
+#7 /home/sg/Sites/m247b/generated/code/Magento/Framework/DB/Adapter/Pdo/Mysql/Interceptor.php(95): Magento\Framework\DB\Adapter\Pdo\Mysql->query()
+#8 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Abstract.php(737): Magento\Framework\DB\Adapter\Pdo\Mysql\Interceptor->query()
+#9 /home/sg/Sites/m247b/generated/code/Magento/Framework/DB/Adapter/Pdo/Mysql/Interceptor.php(1094): Zend_Db_Adapter_Abstract->fetchAll()
+#10 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(100): Magento\Framework\DB\Adapter\Pdo\Mysql\Interceptor->fetchAll()
+#11 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(61): Magento\Store\App\Config\Source\RuntimeConfigSource->getEntities()
+#12 /home/sg/Sites/m247b/vendor/magento/framework/App/Config/ConfigSourceAggregated.php(42): Magento\Store\App\Config\Source\RuntimeConfigSource->get()
+#13 /home/sg/Sites/m247b/generated/code/Magento/Framework/App/Config/ConfigSourceAggregated/Proxy.php(105): Magento\Framework\App\Config\ConfigSourceAggregated->get()
+#14 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Type/Scopes.php(63): Magento\Framework\App\Config\ConfigSourceAggregated\Proxy->get()
+#15 /home/sg/Sites/m247b/vendor/magento/framework/App/Config.php(131): Magento\Store\App\Config\Type\Scopes->get()
+#16 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreRepository.php(106): Magento\Framework\App\Config->get()
+#17 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreRepository.php(127): Magento\Store\Model\StoreRepository->getById()
+#18 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreResolver.php(181): Magento\Store\Model\StoreRepository->getActiveStoreById()
+#19 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreResolver.php(126): Magento\Store\Model\StoreResolver->getDefaultStoreById()
+#20 /home/sg/Sites/m247b/generated/code/Magento/Store/Model/StoreResolver/Proxy.php(105): Magento\Store\Model\StoreResolver->getCurrentStoreId()
+#21 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreManager.php(159): Magento\Store\Model\StoreResolver\Proxy->getCurrentStoreId()
+#22 /home/sg/Sites/m247b/generated/code/Magento/Store/Model/StoreManagerInterface/Proxy.php(129): Magento\Store\Model\StoreManager->getStore()
+#23 /home/sg/Sites/m247b/vendor/magento/module-store/Model/Resolver/Store.php(30): Magento\Store\Model\StoreManagerInterface\Proxy->getStore()
+#24 /home/sg/Sites/m247b/vendor/magento/framework/Translate/Inline.php(144): Magento\Store\Model\Resolver\Store->getScope()
+#25 /home/sg/Sites/m247b/vendor/magento/framework/Escaper.php(282): Magento\Framework\Translate\Inline->isAllowed()
+#26 /home/sg/Sites/m247b/pub/errors/default/page.phtml(13): Magento\Framework\Escaper->escapeHtmlAttr()
+#27 /home/sg/Sites/m247b/pub/errors/processor.php(452): require_once('...')
+#28 /home/sg/Sites/m247b/pub/errors/processor.php(270): Magento\Framework\Error\Processor->_renderPage()
+#29 /home/sg/Sites/m247b/pub/errors/report.php(22): Magento\Framework\Error\Processor->processReport()
+#30 /home/sg/Sites/m247b/vendor/magento/framework/App/ExceptionHandler.php(255): require('...')
+#31 /home/sg/Sites/m247b/vendor/magento/framework/App/ExceptionHandler.php(74): Magento\Framework\App\ExceptionHandler->handleGenericReport()
+#32 /home/sg/Sites/m247b/vendor/magento/framework/App/Http.php(156): Magento\Framework\App\ExceptionHandler->handle()
+#33 /home/sg/Sites/m247b/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\Http->catchException()
+#34 /home/sg/Sites/m247b/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\Http\Interceptor->___callParent()
+#35 /home/sg/Sites/m247b/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#36 /home/sg/Sites/m247b/generated/code/Magento/Framework/App/Http/Interceptor.php(32): Magento\Framework\App\Http\Interceptor->___callPlugins()
+#37 /home/sg/Sites/m247b/vendor/magento/framework/App/Bootstrap.php(270): Magento\Framework\App\Http\Interceptor->catchException()
+#38 /home/sg/Sites/m247b/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#39 /home/sg/.config/composer/vendor/cpriego/valet-linux/server.php(239): require('...')
+#40 {main}
+
+Next Zend_Db_Adapter_Exception: SQLSTATE[HY000] [2002] Connection refused in /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php:148
+Stack trace:
+#0 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Mysql.php(111): Zend_Db_Adapter_Pdo_Abstract->_connect()
+#1 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(480): Zend_Db_Adapter_Pdo_Mysql->_connect()
+#2 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Abstract.php(460): Magento\Framework\DB\Adapter\Pdo\Mysql->_connect()
+#3 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php(242): Zend_Db_Adapter_Abstract->query()
+#4 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(616): Zend_Db_Adapter_Pdo_Abstract->query()
+#5 /home/sg/Sites/m247b/vendor/magento/framework/DB/Adapter/Pdo/Mysql.php(686): Magento\Framework\DB\Adapter\Pdo\Mysql->_query()
+#6 /home/sg/Sites/m247b/generated/code/Magento/Framework/DB/Adapter/Pdo/Mysql/Interceptor.php(95): Magento\Framework\DB\Adapter\Pdo\Mysql->query()
+#7 /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Abstract.php(737): Magento\Framework\DB\Adapter\Pdo\Mysql\Interceptor->query()
+#8 /home/sg/Sites/m247b/generated/code/Magento/Framework/DB/Adapter/Pdo/Mysql/Interceptor.php(1094): Zend_Db_Adapter_Abstract->fetchAll()
+#9 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(100): Magento\Framework\DB\Adapter\Pdo\Mysql\Interceptor->fetchAll()
+#10 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Source/RuntimeConfigSource.php(61): Magento\Store\App\Config\Source\RuntimeConfigSource->getEntities()
+#11 /home/sg/Sites/m247b/vendor/magento/framework/App/Config/ConfigSourceAggregated.php(42): Magento\Store\App\Config\Source\RuntimeConfigSource->get()
+#12 /home/sg/Sites/m247b/generated/code/Magento/Framework/App/Config/ConfigSourceAggregated/Proxy.php(105): Magento\Framework\App\Config\ConfigSourceAggregated->get()
+#13 /home/sg/Sites/m247b/vendor/magento/module-store/App/Config/Type/Scopes.php(63): Magento\Framework\App\Config\ConfigSourceAggregated\Proxy->get()
+#14 /home/sg/Sites/m247b/vendor/magento/framework/App/Config.php(131): Magento\Store\App\Config\Type\Scopes->get()
+#15 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreRepository.php(106): Magento\Framework\App\Config->get()
+#16 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreRepository.php(127): Magento\Store\Model\StoreRepository->getById()
+#17 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreResolver.php(181): Magento\Store\Model\StoreRepository->getActiveStoreById()
+#18 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreResolver.php(126): Magento\Store\Model\StoreResolver->getDefaultStoreById()
+#19 /home/sg/Sites/m247b/generated/code/Magento/Store/Model/StoreResolver/Proxy.php(105): Magento\Store\Model\StoreResolver->getCurrentStoreId()
+#20 /home/sg/Sites/m247b/vendor/magento/module-store/Model/StoreManager.php(159): Magento\Store\Model\StoreResolver\Proxy->getCurrentStoreId()
+#21 /home/sg/Sites/m247b/generated/code/Magento/Store/Model/StoreManagerInterface/Proxy.php(129): Magento\Store\Model\StoreManager->getStore()
+#22 /home/sg/Sites/m247b/vendor/magento/module-store/Model/Resolver/Store.php(30): Magento\Store\Model\StoreManagerInterface\Proxy->getStore()
+#23 /home/sg/Sites/m247b/vendor/magento/framework/Translate/Inline.php(144): Magento\Store\Model\Resolver\Store->getScope()
+#24 /home/sg/Sites/m247b/vendor/magento/framework/Escaper.php(282): Magento\Framework\Translate\Inline->isAllowed()
+#25 /home/sg/Sites/m247b/pub/errors/default/page.phtml(13): Magento\Framework\Escaper->escapeHtmlAttr()
+#26 /home/sg/Sites/m247b/pub/errors/processor.php(452): require_once('...')
+#27 /home/sg/Sites/m247b/pub/errors/processor.php(270): Magento\Framework\Error\Processor->_renderPage()
+#28 /home/sg/Sites/m247b/pub/errors/report.php(22): Magento\Framework\Error\Processor->processReport()
+#29 /home/sg/Sites/m247b/vendor/magento/framework/App/ExceptionHandler.php(255): require('...')
+#30 /home/sg/Sites/m247b/vendor/magento/framework/App/ExceptionHandler.php(74): Magento\Framework\App\ExceptionHandler->handleGenericReport()
+#31 /home/sg/Sites/m247b/vendor/magento/framework/App/Http.php(156): Magento\Framework\App\ExceptionHandler->handle()
+#32 /home/sg/Sites/m247b/vendor/magento/framework/Interception/Interceptor.php(58): Magento\Framework\App\Http->catchException()
+#33 /home/sg/Sites/m247b/vendor/magento/framework/Interception/Interceptor.php(138): Magento\Framework\App\Http\Interceptor->___callParent()
+#34 /home/sg/Sites/m247b/vendor/magento/framework/Interception/Interceptor.php(153): Magento\Framework\App\Http\Interceptor->Magento\Framework\Interception\{closure}()
+#35 /home/sg/Sites/m247b/generated/code/Magento/Framework/App/Http/Interceptor.php(32): Magento\Framework\App\Http\Interceptor->___callPlugins()
+#36 /home/sg/Sites/m247b/vendor/magento/framework/App/Bootstrap.php(270): Magento\Framework\App\Http\Interceptor->catchException()
+#37 /home/sg/Sites/m247b/pub/index.php(30): Magento\Framework\App\Bootstrap->run()
+#38 /home/sg/.config/composer/vendor/cpriego/valet-linux/server.php(239): require('...')
+#39 {main} {"exception":"[object] (Zend_Db_Adapter_Exception(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php:148)
+[previous exception] [object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] Connection refused at /home/sg/Sites/m247b/vendor/magento/zend-db/library/Zend/Db/Adapter/Pdo/Abstract.php:128)"} []
+[2024-01-10T19:58:48.498092+00:00] main.DEBUG: Source class "\Magento\ServiceProxy\Model" for "Magento\ServiceProxy\Model\Logger" generation does not exist. {"exception":"[object] (RuntimeException(code: 0): Source class \"\\Magento\\ServiceProxy\\Model\" for \"Magento\\ServiceProxy\\Model\\Logger\" generation does not exist. at /home/sg/Sites/m247b/vendor/magento/framework/Code/Generator.php:223)"} []
+[2024-01-10T20:18:37.003601+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-10T20:18:37.004023+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-10T20:34:28.381089+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-10T20:34:28.717610+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-10T21:23:34.528486+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-10T21:23:34.529220+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-10T21:24:20.510599+00:00] main.ERROR: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-10T21:24:20.511318+00:00] main.CRITICAL: Unable to resolve the source file for 'frontend/Magento/luma/en_US/requirejs-config.js' [] []
+[2024-01-12T14:30:45.429794+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-12T14:30:45.652424+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-12T14:30:53.809104+00:00] main.ERROR: SQLSTATE[HY000] [2002] Connection refused [] []
+[2024-01-30T14:35:16.208151+00:00] main.INFO: Broken reference: the 'catalog.compare.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-01-30T14:35:16.208882+00:00] main.INFO: Broken reference: the 'sale.reorder.sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-01-30T14:35:16.209198+00:00] main.INFO: Broken reference: the 'wishlist_sidebar' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-01-30T14:35:16.209335+00:00] main.INFO: Broken reference: the 'paypal.partner.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-01-30T14:35:16.209417+00:00] main.INFO: Broken reference: the 'bml.right.logo' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
+[2024-01-30T14:35:16.209496+00:00] main.INFO: Broken reference: the 'sidebar.container.paylater' element cannot be added as child to 'sidebar.additional', because the latter doesn't exist [] []
