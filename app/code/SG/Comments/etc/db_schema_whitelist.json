@@ -1,0 +1,20 @@
+{
+    "sg_comments_comment": {
+        "column": {
+            "comment_id": true,
+            "created_at": true,
+            "customer_id": true,
+            "email": true,
+            "name": true,
+            "message": true,
+            "product_id": true
+        },
+        "index": {
+            "SG_COMMENTS_COMMENT_PRODUCT_ID": true
+        },
+        "constraint": {
+            "PRIMARY": true,
+            "SG_COMMENTS_COMMENT_PRODUCT_ID_CATALOG_PRODUCT_ENTITY_ENTITY_ID": true
+        }
+    }
+}

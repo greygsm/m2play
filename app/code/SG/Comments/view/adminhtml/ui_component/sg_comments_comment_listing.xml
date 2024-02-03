@@ -1,0 +1,117 @@
+<?xml version="1.0" ?>
+<!--
+ /**
+ * Copyright ©  All rights reserved.
+ * See COPYING.txt for license details.
+ * @author Serhiy Gavrylov
+ */
+-->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <argument name="data" xsi:type="array">
+        <item name="js_config" xsi:type="array">
+            <item name="provider" xsi:type="string">sg_comments_comment_listing.sg_comments_comment_listing_data_source</item>
+        </item>
+    </argument>
+    <settings>
+        <spinner>sg_comments_comment_columns</spinner>
+        <deps>
+            <dep>sg_comments_comment_listing.sg_comments_comment_listing_data_source</dep>
+        </deps>
+    </settings>
+    <dataSource name="sg_comments_comment_listing_data_source" component="Magento_Ui/js/grid/provider">
+        <settings>
+            <storageConfig>
+                <param name="indexField" xsi:type="string">comment_id</param>
+            </storageConfig>
+            <updateUrl path="mui/index/render"/>
+        </settings>
+        <aclResource>SG_Comments::Comment</aclResource>
+        <dataProvider name="sg_comments_comment_listing_data_source" class="SG\Comments\Ui\DataProvider\Comments\Listing\DataProvider">
+            <settings>
+                <requestFieldName>id</requestFieldName>
+                <primaryFieldName>comment_id</primaryFieldName>
+            </settings>
+        </dataProvider>
+    </dataSource>
+    <listingToolbar name="listing_top">
+        <settings>
+            <sticky>true</sticky>
+        </settings>
+        <bookmark name="bookmarks"/>
+        <columnsControls name="columns_controls"/>
+        <filters name="listing_filters"/>
+        <paging name="listing_paging"/>
+        <massaction name="listing_massaction" component="SG_Comments/js/grid/massactions">
+            <argument name="data" xsi:type="array">
+                <item name="data" xsi:type="array">
+                    <item name="selectProvider" xsi:type="string">sg_comments_comment_listing.sg_comments_comment_listing.sg_comments_comment_listing_columns.ids</item>
+                    <item name="displayArea" xsi:type="string">bottom</item>
+                    <item name="indexField" xsi:type="string">comment_id</item>
+                </item>
+            </argument>
+            <action name="delete">
+                <argument name="data" xsi:type="array">
+                    <item name="config" xsi:type="array">
+                        <item name="type" xsi:type="string">delete</item>
+                        <item name="label" xsi:type="string" translate="true">Delete</item>
+                        <item name="url" xsi:type="url" path="sg_comments/comment/massDelete" />
+                        <item name="confirm" xsi:type="array">
+                            <item name="title" xsi:type="string" translate="true">Delete items</item>
+                            <item name="message" xsi:type="string" translate="true">Are you sure you want to delete selected items?</item>
+                        </item>
+                    </item>
+                </argument>
+            </action>
+        </massaction>
+    </listingToolbar>
+    <columns name="sg_comments_comment_columns">
+        <selectionsColumn name="ids">
+            <settings>
+                <indexField>comment_id</indexField>
+            </settings>
+        </selectionsColumn>
+        <column name="comment_id">
+            <settings>
+                <filter>text</filter>
+                <sorting>asc</sorting>
+                <label translate="true">ID</label>
+            </settings>
+        </column>
+        <column name="created_at">
+            <settings>
+                <filter>text</filter>
+                <label translate="true">created_at</label>
+            </settings>
+        </column>
+        <column name="customer_id">
+            <settings>
+                <filter>text</filter>
+                <label translate="true">customer_id</label>
+            </settings>
+        </column>
+        <column name="email">
+            <settings>
+                <filter>text</filter>
+                <label translate="true">email</label>
+            </settings>
+        </column>
+        <column name="name">
+            <settings>
+                <filter>text</filter>
+                <label translate="true">name</label>
+            </settings>
+        </column>
+        <column name="message">
+            <settings>
+                <filter>text</filter>
+                <label translate="true">message</label>
+            </settings>
+        </column>
+        <column name="product_id">
+            <settings>
+                <filter>text</filter>
+                <label translate="true">product_id</label>
+            </settings>
+        </column>
+    </columns>
+</listing>
