@@ -1,0 +1,35 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ * @author Serhiy Gavrylov
+ */
+
+/** @var \SG\Comments\Block\Product\Comment $block */
+
+$items = $block->getItems();
+?>
+
+<ol class="items comment-items review-items">
+    <?php if (count($items)): ?>
+        <?php foreach ($items as $item): ?>
+            <li class="item review-item">
+                <div class="review-title comment-title">
+                    <?= $block->escapeHtml(sprintf(
+                        "%s - %s (%s)",
+                        $item['created_at'] ?? '',
+                        $item['name'] ?? '',
+                        $item['email'] ?? ''
+                    )); ?>
+                </div>
+                <div class="review-content-container review-content-container">
+                    <div class="review-content review-content">
+                        <?= $block->escapeHtml($item['message'] ?? ''); ?>
+                    </div>
+                </div>
+            </li>
+        <?php endforeach ?>
+    <?php endif; ?>
+</ol>
+
+

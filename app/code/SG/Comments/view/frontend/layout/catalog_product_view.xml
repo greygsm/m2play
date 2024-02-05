@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ * @author Serhiy Gavrylov
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="review_product_form_component"/>
+    <body>
+        <referenceBlock name="product.info.details">
+            <block class="SG\Comments\Block\Product\Comment" name="comments.tab" as="comments_tab" template="SG_Comments::comments-tab.phtml" group="detailed_info">
+                <arguments>
+                    <argument name="sort_order" xsi:type="string">40</argument>
+                </arguments>
+                <block class="SG\Comments\Block\Product\Comment" name="comments.tab.list" as="comment_list" template="SG_Comments::comment-list.phtml"/>
+                <block class="SG\Comments\Block\Product\Comment\Form" name="comments.tab.form" as="comment_form" template="SG_Comments::comment-form.phtml"/>
+            </block>
+        </referenceBlock>
+    </body>
+</page>

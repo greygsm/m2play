@@ -1,0 +1,21 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ * @author Serhiy Gavrylov
+ */
+
+/** @var \SG\Comments\Block\Product\Comment $block */
+?>
+<?= $block->getChildHtml('comment_form') ?>
+
+<div id="product-comments-container product-rewiew-container" data-bind="scope: 'productComments'">
+    <div class="block comment-list review-list">
+        <div class="block-title">
+            <strong><?= $block->escapeHtml(__('Product Comments')) ?> </strong>
+        </div>
+        <div id="comments-list" class="block-content">
+            <?= $block->getChildHtml('comment_list') ?>
+        </div>
+    </div>
+</div>

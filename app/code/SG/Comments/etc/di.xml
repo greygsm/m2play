@@ -23,4 +23,7 @@
 			</argument>
 		</arguments>
 	</type>
+    <type name="SG\Comments\Api\CommentRepositoryInterface">
+        <plugin name="Plugin_SG_Comments_Block_Cache_Clean" type="\SG\Plugin\SG\Comments\Api\CommentBlockCacheClean" sortOrder="10"/>
+    </type>
 </config>

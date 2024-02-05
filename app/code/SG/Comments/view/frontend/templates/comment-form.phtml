@@ -1,0 +1,73 @@
+<?php
+
+use Magento\Framework\Escaper;
+use SG\Comments\Block\Product\Comment\Form;
+
+/**
+ * @var Form $block
+ * @var Escaper $escaper
+ */
+?>
+
+<div class="block comment-add">
+    <div class="block-title"><strong><?= $escaper->escapeHtml(__('Write Your Own Comment')) ?></strong></div>
+    <div class="block-content">
+        <form class="comment-form" id="product_comment_form">
+            <?= $block->getBlockHtml('formkey') ?>
+            <input name="product_id" type="hidden" value="<?= $block->getProductId()?>">
+            <fieldset class="fieldset review-fieldset">
+                <div class="field c-field-name required">
+                    <label for="pr_comment_name"
+                           class="label"><span><?= $block->escapeHtml(__('Name')) ?></span></label>
+                    <div class="control">
+                        <input type="text" name="name" id="pr_comment_name" class="input-text"
+                               data-validate="{required:true}"/>
+                    </div>
+                </div>
+                <div class="field c-field-email required">
+                    <label for="pr_comment_email"
+                           class="label"><span><?= $block->escapeHtml(__('Email')) ?></span></label>
+                    <div class="control">
+                        <input type="text" name="email" id="pr_comment_email" class="input-text"
+                               data-validate="{required:true, 'validate-email':true}"/>
+                    </div>
+                </div>
+                <div class="field c-field-message required">
+                    <label for="pr_comment_message"
+                           class="label"><span><?= $block->escapeHtml(__('Message')) ?></span></label>
+                    <div class="control">
+                        <textarea name="message" id="pr_comment_message" cols="5" rows="3"
+                                  data-validate="{required:true}""></textarea>
+                    </div>
+                </div>
+            </fieldset>
+
+            <div class="actions-toolbar comment-form-actions">
+                <div class="primary actions-primary">
+                    <button type="submit" class="action submit primary">
+                        <span><?= $block->escapeHtml(__('Submit Comment')) ?></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script type="text/x-magento-init">
+    {
+        "#product_comment_form": {
+            "SG_Comments/js/submit-comment": {
+              "ajax_list_url": "<?= $block->getAjaxListUrl(); ?>",
+              "ajax_post_url": "<?= $block->getAjaxPostUrl(); ?>",
+              "ajax_email_url": "<?= $block->getAjaxCustomerEmailUrl(); ?>",
+              "product_id": "<?= $block->getProductId(); ?>",
+              "listElemSelector": "#comments-list .comment-items",
+              "formSelector": "#product_comment_form",
+              "fieldNameSelector": "#pr_comment_name",
+              "fieldEmailSelector": "#pr_comment_email",
+              "fieldMessageSelector": "#pr_comment_message"
+            },
+            "validation": {}
+        }
+    }
+</script>
