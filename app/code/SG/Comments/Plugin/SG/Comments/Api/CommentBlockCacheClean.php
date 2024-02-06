@@ -6,7 +6,7 @@
  */
 declare(strict_types=1);
 
-namespace SG\Plugin\SG\Comments\Api;
+namespace SG\Comments\Plugin\SG\Comments\Api;
 
 use Magento\Framework\App\CacheInterface;
 use Magento\PageCache\Model\Cache\Type;
