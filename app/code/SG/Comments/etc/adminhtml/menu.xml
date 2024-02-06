@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!--
+ /**
+ * Copyright ©  All rights reserved.
+ * See COPYING.txt for license details.
+ * @author Serhiy Gavrylov
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="SG::top_level" title="SG_COMMENTS" module="SG_Comments" sortOrder="9999" resource="Magento_Backend::content"/>
+		<add id="SG_Comments::sg_comments_comment" title="Comment" module="SG_Comments" sortOrder="9999" resource="Magento_Backend::content" parent="SG::top_level" action="sg_comments/comment/index"/>
+	</menu>
+</config>

@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--
+ /**
+ * Copyright ©  All rights reserved.
+ * See COPYING.txt for license details.
+ * @author Serhiy Gavrylov
+ */
+-->
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+	<table name="sg_comments_comment" resource="default" engine="innodb" comment="sg_comments_comment Table">
+		<column xsi:type="int" name="comment_id" padding="10" unsigned="true" nullable="false" identity="true" comment="Entity Id"/>
+		<column name="created_at" nullable="false" xsi:type="datetime" comment="Date of creation" default="CURRENT_TIMESTAMP"/>
+		<column name="customer_id" nullable="true" xsi:type="varchar" comment="Customer ID" length="255"/>
+		<column name="email" nullable="false" xsi:type="text" comment="Email"/>
+		<column name="name" nullable="false" xsi:type="text" comment="Name"/>
+		<column name="message" nullable="true" xsi:type="text" comment="message"/>
+        <column xsi:type="int" name="product_id" unsigned="true" nullable="false" identity="false"
+                comment="Product ID"/>
+        <constraint xsi:type="primary" referenceId="PRIMARY">
+            <column name="comment_id"/>
+        </constraint>
+        <constraint xsi:type="foreign" referenceId="SG_COMMENTS_COMMENT_PRODUCT_ID_CATALOG_PRODUCT_ENTITY_ENTITY_ID"
+                    table="sg_comments_comment" column="product_id"
+                    referenceTable="catalog_product_entity" referenceColumn="entity_id" onDelete="CASCADE"/>
+        <index referenceId="SG_COMMENTS_COMMENT_PRODUCT_ID" indexType="btree">
+            <column name="product_id"/>
+        </index>
+    </table>
+</schema>

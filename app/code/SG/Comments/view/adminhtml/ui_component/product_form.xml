@@ -1,0 +1,37 @@
+<!--
+ /**
+ * Copyright ©  All rights reserved.
+ * See COPYING.txt for license details.
+ * @author Serhiy Gavrylov
+ */
+-->
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <fieldset name="comments_tab">
+        <argument name="data" xsi:type="array">
+            <item name="config" xsi:type="array">
+                <item name="label" xsi:type="string" translate="true">Comments Tab</item>
+                <item name="collapsible" xsi:type="boolean">true</item>
+                <item name="sortOrder" xsi:type="number">15</item>
+            </item>
+        </argument>
+        <container name="comments_container" >
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="sortOrder" xsi:type="number">160</item>
+                </item>
+            </argument>
+            <insertListing name="sg_comments_comment_listing" >
+                <settings>
+                    <dataLinks>
+                        <exports>false</exports>
+                        <imports>true</imports>
+                    </dataLinks>
+                    <autoRender>true</autoRender>
+                    <selectionsProvider>sg_comments_comment_listing.sg_comments_comment_listing.columns.ids</selectionsProvider>
+                    <dataScope>sg_comments_comment_listing</dataScope>
+                    <ns>sg_comments_comment_listing</ns>
+                </settings>
+            </insertListing>
+        </container>
+    </fieldset>
+</form>

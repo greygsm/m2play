@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--
+ /**
+ * Copyright ©  All rights reserved.
+ * See COPYING.txt for license details.
+ * @author Serhiy Gavrylov
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<preference for="SG\Comments\Api\CommentRepositoryInterface" type="SG\Comments\Model\CommentRepository"/>
+	<preference for="SG\Comments\Api\Data\CommentInterface" type="SG\Comments\Model\Comment"/>
+	<preference for="SG\Comments\Api\Data\CommentSearchResultsInterface" type="Magento\Framework\Api\SearchResults"/>
+	<virtualType name="SgCommentsModelGridCollection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+		<arguments>
+			<argument name="mainTable" xsi:type="string">sg_comments_comment</argument>
+			<argument name="resourceModel" xsi:type="string">SG\Comments\Model\ResourceModel\Comment\Collection</argument>
+		</arguments>
+	</virtualType>
+	<type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
+		<arguments>
+			<argument name="collections" xsi:type="array">
+                <item name="sg_comments_comment_listing_data_source" xsi:type="string">SgCommentsModelGridCollection</item>
+			</argument>
+		</arguments>
+	</type>
+    <type name="SG\Comments\Api\CommentRepositoryInterface">
+        <plugin name="Plugin_SG_Comments_Block_Cache_Clean" type="\SG\Plugin\SG\Comments\Api\CommentBlockCacheClean" sortOrder="10"/>
+    </type>
+</config>

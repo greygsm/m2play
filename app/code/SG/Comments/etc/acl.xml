@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--
+ /**
+ * Copyright ©  All rights reserved.
+ * See COPYING.txt for license details.
+ * @author Serhiy Gavrylov
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+	<acl>
+		<resources>
+			<resource id="Magento_Backend::admin">
+				<resource id="SG_Comments::Comment" title="Comment" sortOrder="10">
+                    <resource id="SG_Comments::Comment_view" title="View Comment" sortOrder="10"/>
+					<resource id="SG_Comments::Comment_delete" title="Delete Comment" sortOrder="20"/>
+				</resource>
+			</resource>
+		</resources>
+	</acl>
+</config>
